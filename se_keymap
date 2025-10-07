@@ -1,0 +1,58 @@
+// Swedish Apple Mac Layout (custom, cleaned)
+// Valid XKB symbols only — special Unicode symbols removed or replaced
+
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    name[Group1]= "Swedish Apple (cleaned)";
+
+    key <TLDE> { [ less, greater, lessthanequal, greaterthanequal ] };
+    key <AE01> { [ 1, exclam, copyright, exclamdown ] };
+    key <AE02> { [ 2, quotedbl, at, doubleacute ] };
+    key <AE03> { [ 3, numbersign, sterling, yen ] };
+    key <AE04> { [ 4, EuroSign, dollar, cent ] };
+    key <AE05> { [ 5, percent, infinity, permille ] };
+    key <AE06> { [ 6, ampersand, section, paragraph ] };
+    key <AE07> { [ 7, slash, bar, backslash ] };
+    key <AE08> { [ 8, parenleft, bracketleft, braceleft ] };
+    key <AE09> { [ 9, parenright, bracketright, braceright ] };
+    key <AE10> { [ 0, equal, approxeq, notequal ] };
+    key <AE11> { [ plus, question, plusminus, questiondown ] };
+    key <AE12> { [ dead_acute, grave, dead_acute, grave ] };
+
+    key <AD01> { [ q, Q, periodcentered, degree ] };
+    key <AD02> { [ w, W, Greek_omega, doubleacute ] };
+    key <AD03> { [ e, E, eacute, Eacute ] };
+    key <AD04> { [ r, R, registered, radical ] };
+    key <AD05> { [ t, T, dagger, double_dagger ] };
+    key <AD06> { [ y, Y, mu, asciitilde ] };
+    key <AD07> { [ u, U, udiaeresis, Udiaeresis ] };
+    key <AD08> { [ i, I, idotless, NoSymbol ] };
+    key <AD09> { [ o, O, o, O ] }; // Replaced œ, Œ with fallback
+    key <AD10> { [ p, P, Greek_pi, product ] };
+    key <AD11> { [ aring, Aring, NoSymbol, NoSymbol ] };
+    key <AD12> { [ diaeresis, asciicircum, asciitilde, asciicircum ] };
+    key <BKSL> { [ apostrophe, asterisk, NoSymbol, NoSymbol ] };
+
+    key <AC01> { [ a, A, NoSymbol, NoSymbol ] }; // Removed 
+    key <AC02> { [ s, S, ssharp, NoSymbol ] };
+    key <AC03> { [ d, D, partialdiff, NoSymbol ] };
+    key <AC04> { [ f, F, function, NoSymbol ] };
+    key <AC05> { [ g, G, cedilla, macron ] };
+    key <AC06> { [ h, H, ogonek, breve ] };
+    key <AC07> { [ j, J, radical, notsign ] };
+    key <AC08> { [ k, K, ordfeminine, masculine ] };
+    key <AC09> { [ l, L, NoSymbol, NoSymbol ] }; // Removed ﬁ, ﬂ
+    key <AC10> { [ odiaeresis, Odiaeresis, oslash, Oslash ] };
+    key <AC11> { [ adiaeresis, Adiaeresis, ae, AE ] };
+
+    key <AB01> { [ z, Z, NoSymbol, NoSymbol ] };
+    key <AB02> { [ x, X, approxeq, caron ] };
+    key <AB03> { [ c, C, ccedilla, Ccedilla ] };
+    key <AB04> { [ v, V, guillemotleft, leftdoublequotemark ] };
+    key <AB05> { [ b, B, guillemotright, rightdoublequotemark ] };
+    key <AB06> { [ n, N, quoteleft, quotedblleft ] };
+    key <AB07> { [ m, M, quoteright, quotedblright ] };
+    key <AB08> { [ comma, semicolon, singlelowquotemark, doublelowquotemark ] };
+    key <AB09> { [ period, colon, ellipsis, periodcentered ] };
+    key <AB10> { [ minus, underscore, endash, emdash ] };
+};
