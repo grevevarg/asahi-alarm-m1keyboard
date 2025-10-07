@@ -11,7 +11,7 @@ If you know how to write proper XKB stuff, feel free to send it upstream to [xke
 The instructions here are specifically for hyprland and assumes that you're running Omarchy.
 
 ## Swedish
-If you simply want the swedish keymap, compare the contents of `hyprinput.conf` with `.config/hypr/input.conf`
+If you simply want the swedish keymap, first run `setup.sh` (`sudo chmod +x setup.sh && ./setup.sh` and then compare the contents of `hyprinput.conf` with `.config/hypr/input.conf`
 
 Change or add relevant settings. If you skip lv3:ralt_switch you won't be able to access level 3 and 4 of the keymap. This is bad as it means you'll get locked out of a lot of symbols.
 
